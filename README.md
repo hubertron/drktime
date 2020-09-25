@@ -1,8 +1,8 @@
 # Setup
 
 *Requirements*  
-Pip3
-Python3
+* Pip3
+* Python3
 
 `python -m pip install requests`
 `pip3 install pyyaml`
