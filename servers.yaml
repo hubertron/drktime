@@ -1,0 +1,19 @@
+---
+- name: Google
+  address: https://google.com/
+  search_string: 'made up string'
+  notify_via: slack, email, sms
+- name: Yahoo
+  address: https://yahoo.com
+  search_string: 'head'
+  notify_via: slack
+- name: Bing
+  address: https://bing.com
+  search_string: 'head'
+  notify_via: email
+- name: DrkPxl
+  address: https://www.drkpxl.com
+  search_string: 'head'
+- name: 404 test
+  address: https://httpbin.org/status/404
+  search_string: 'head'
