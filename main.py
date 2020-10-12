@@ -83,7 +83,6 @@ def getLocation():
     country = location[0]["country"]
     return zipcode, country
       
-
 def getWeather():
   locations = getLocation()
   global res1day
