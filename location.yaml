@@ -1,0 +1,4 @@
+---
+- name: Weather Location
+  zip: "80211"
+  country: 'US'

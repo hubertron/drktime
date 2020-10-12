@@ -1,16 +1,19 @@
 ---
-- name: Google
-  address: https://google.com/
-  search_string: 'made up string'
-- name: Yahoo
-  address: https://yahoo.com
-  search_string: 'head'
-- name: Bing
-  address: https://bing.com
-  search_string: 'head'
+- name: Squaw Alpine
+  address: https://www.squawalpine.com
+  search_string: 'Alterra Mountain Company'
+- name: AMP
+  address: https://account.ikonpass.com
+  search_string: 'Copyright'
+- name: Stratton
+  address: https://www.stratton.com
+  search_string: 'Privacy Policy'
 - name: DrkPxl
   address: https://www.drkpxl.com
-  search_string: 'head'
-- name: 404 test
-  address: https://httpbin.org/status/404
-  search_string: 'head'
+  search_string: 'Published'
+- name: Ikon Pass
+  address: https://www.ikonpass.com
+  search_string: 'The Ikon Pass'
+- name: Mtn Powder
+  address: https://www.mtnpowder.com
+  search_string: 'Get all the latest destination'
