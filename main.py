@@ -95,7 +95,7 @@ def displayEink():
  while True:
   time.sleep(60)
   print(res1day, '\n')
-  currentDate = datetime.now().strftime('%b %d %y %I:%M:%S %p')
+  currentDate = datetime.now().strftime('%a %b %d %-I:%M %p')
   print(currentDate, '\n')
   print(*printlistUptime, sep='\n')
   print('\n --- \n')
