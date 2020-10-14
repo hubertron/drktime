@@ -7,7 +7,7 @@
   search_string: 'Copyright'
 - name: Stratton
   address: https://www.stratton.com
-  search_string: 'Privacy Policy'
+  search_string: 'main'
 - name: DrkPxl
   address: https://www.drkpxl.com
   search_string: 'Published'

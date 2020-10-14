@@ -84,12 +84,13 @@ def getLocation():
     return zipcode, country
       
 def getWeather():
-  locations = getLocation()
-  global res1day
-  n = noaa.NOAA()
-  res = n.get_forecasts(locations[0], locations[1], False)
-  res1day = res[0]["detailedForecast"]
-  time.sleep( 10800 )
+  while True:
+    locations = getLocation()
+    global res1day
+    n = noaa.NOAA()
+    res = n.get_forecasts(locations[0], locations[1], False)
+    res1day = res[0]["detailedForecast"]
+    time.sleep( 3600 )
 
 def displayEink():
  while True:
@@ -100,8 +101,6 @@ def displayEink():
   print(*printlistUptime, sep='\n')
   print('\n --- \n')
   
-  
-
 
 def main():
   Thread(target = getWeather).start()
@@ -113,6 +112,7 @@ if __name__ == '__main__':
 
 # Docs
     # https://requests.readthedocs.io/en/master/user/quickstart/#response-status-codes
+    # https://api.weather.gov/gridpoints/BOU/60,62/forecast
 
 
 
